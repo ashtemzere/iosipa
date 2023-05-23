@@ -1,0 +1,22 @@
+(function($){$.fn.multiple_emails=function(options){var defaults={checkDupEmail:true,theme:"Bootstrap",position:"top"};var settings=$.extend({},defaults,options);var deleteIconHTML="";if(settings.theme.toLowerCase()=="Bootstrap".toLowerCase())
+{deleteIconHTML='<a href="#" class="multiple_emails-close" title="Remove"><span class="fa fa-times"></span></a>';}
+else if(settings.theme.toLowerCase()=="SemanticUI".toLowerCase()||settings.theme.toLowerCase()=="Semantic-UI".toLowerCase()||settings.theme.toLowerCase()=="Semantic UI".toLowerCase()){deleteIconHTML='<a href="#" class="multiple_emails-close" title="Remove"><i class="remove icon"></i></a>';}
+else if(settings.theme.toLowerCase()=="Basic".toLowerCase()){deleteIconHTML='<a href="#" class="multiple_emails-close" title="Remove"><i class="basicdeleteicon">Remove</i></a>';}
+return this.each(function(){var $orig=$(this);var $list=$('<ul class="multiple_emails-ul" />');if($(this).val()!=''&&IsJsonString($(this).val())){$.each(jQuery.parseJSON($(this).val()),function(index,val){$list.append($('<li class="multiple_emails-email"><span class="email_name" data-email="'+val.toLowerCase()+'">'+val+'</span></li>').prepend($(deleteIconHTML).click(function(e){$(this).parent().remove();refresh_emails();e.preventDefault();})));});}
+var $input=$('<input type="text" placeholder="Enter multiple email addresses with comma" class="multiple_emails-input text-left" />').on('keyup',function(e){$(this).removeClass('multiple_emails-error');var input_length=$(this).val().length;var keynum;if(window.event){keynum=e.keyCode;}
+else if(e.which){keynum=e.which;}
+if(keynum==9||keynum==32||keynum==188){display_email($(this),settings.checkDupEmail);}
+else if(keynum==13){display_email($(this),settings.checkDupEmail);e.preventDefault();}}).on('blur',function(event){if($(this).val()!=''){display_email($(this),settings.checkDupEmail);}});var $container=$('<div class="multiple_emails-container" />').click(function(){$input.focus();});if(settings.position.toLowerCase()==="top")
+$container.append($list).append($input).insertAfter($(this));else
+$container.append($input).append($list).insertBefore($(this));function display_email(t,dupEmailCheck){var arr=t.val().trim().replace(/^,|,$/g,'').replace(/^;|;$/g,'');arr=arr.replace(/"/g,"");arr=arr.split(/[\s,;]+/);var errorEmails=new Array();var pattern=new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);for(var i=0;i<arr.length;i++){if(dupEmailCheck===true&&$orig.val().indexOf(arr[i])!=-1){if(arr[i]&&arr[i].length>0){new function(){var existingElement=$list.find('.email_name[data-email='+arr[i].toLowerCase().replace('.','\\.').replace('@','\\@')+']');existingElement.css('font-weight','bold');setTimeout(function(){existingElement.css('font-weight','');},1500);}();}}
+else if(pattern.test(arr[i])==true){$list.append($('<li class="multiple_emails-email"><span class="email_name" data-email="'+arr[i].toLowerCase()+'">'+arr[i]+'</span></li>').prepend($(deleteIconHTML).click(function(e){$(this).parent().remove();refresh_emails();e.preventDefault();})));}
+else
+errorEmails.push(arr[i]);}
+if(errorEmails.length>0)
+t.val(errorEmails.join("; ")).addClass('multiple_emails-error');else
+t.val("");refresh_emails();}
+function refresh_emails(){var emails=new Array();var container=$orig.siblings('.multiple_emails-container');container.find('.multiple_emails-email span.email_name').each(function(){emails.push($(this).html());});$orig.val(JSON.stringify(emails)).trigger('change');}
+function IsJsonString(str){try{JSON.parse(str);}
+catch(e){return false;}
+return true;}
+return $(this).hide();});};})(jQuery);
