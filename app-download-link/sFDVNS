@@ -27,20 +27,20 @@ Android App distribution. Don’t waste time and have an easy process for testin
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.installonair.com/favicons/favicon-16x16.png">
 <link rel="manifest" href="https://www.installonair.com/favicons/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="https://www.installonair.com/favicons/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="https://www.ashtemzere.ml//favicons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <meta property="og:title" content="Install On Air | IPA Distribution" />
 <meta property="og:description" content="Install On Air offers Testflight and Diawi Alternative for iOS and Android App. Distribute your
 application in less time with best platform for app distribution." />
-<meta property="og:image" content="https://www.installonair.com/img/installonairfb.png" />
+<meta property="og:image" content="https://www.ashtemzere.ml//img/installonairfb.png" />
 </head>
 <body>
 <div class="page-content">
 <header>
 <div class="container">
 <nav class="navbar navbar-expand-lg i_menu">
-<a class="navbar-brand" href="https://www.installonair.com">
-<img src="https://www.installonair.com/img/logo.png" alt="logo">
+<a class="navbar-brand" href="https://www.ashtemzere.ml/">
+<img src="https://www.ashtemzere.ml//img/logo.png" alt="logo">
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -49,11 +49,11 @@ application in less time with best platform for app distribution." />
 <div class="navbar-nav">
 <ul class="nav navbar-nav navbar-right">
 
-<a class="nav-item nav-link " href="https://www.installonair.com/features"> FEATURES </a>
-<a class="nav-item nav-link " href="https://www.installonair.com/faq">FAQ</a>
-<a class="nav-item nav-link " href="https://www.installonair.com/login">Login</a>
+<a class="nav-item nav-link " href="https://www.ashtemzere.ml//features"> FEATURES </a>
+<a class="nav-item nav-link " href="https://www.ashtemzere.ml//faq">FAQ</a>
+<a class="nav-item nav-link " href="https://www.ashtemzere.ml//login">Login</a>
 <div class="ipa-register">
-<a class="nav-item nav-link register " href="https://www.installonair.com/register">Register for free</a>
+<a class="nav-item nav-link register " href="https://www.ashtemzere.ml//register">Register for free</a>
 <ul>
 <li>Signup and get access to build for 8 days</li>
 </ul>
@@ -71,9 +71,9 @@ application in less time with best platform for app distribution." />
 <div id="progress-percentage">
 Install ESign
 </div>
-<a class="installationLink blue_btn btn installationButton box__button" href="itms-services://?action=download-manifest&amp;url=https://www.installonair.com/storage/ipaz/sFDVNS/sFDVNS.plist">Click Here to install </a><br/>
+<a class="installationLink blue_btn btn installationButton box__button" href="itms-services://?action=download-manifest&amp;url=https://www.ashtemzere.ml//storage/ipaz/sFDVNS/sFDVNS.plist">Click Here to install </a><br/>
 <div class="m-2 text-danger" id="downloadLink"></div>
-<img src="https://www.installonair.com/storage/qr-code/sFDVNS.png">
+<img src="https://www.ashtemzere.ml//storage/qr-code/sFDVNS.png">
 </div>
 </div>
 </div>
@@ -93,19 +93,19 @@ your own device. This is the best way to share, get quick and real feedback on y
 <h3>Links</h3>
 <ul class="links">
 <li>
-<a class href="https://www.installonair.com">Home</a>
+<a class href="https://www.ashtemzere.ml/">Home</a>
 </li>
 <li>
-<a class href="https://www.installonair.com/features">FEATURES</a>
+<a class href="https://www.ashtemzere.ml//features">FEATURES</a>
 </li>
 <li>
-<a class href="https://www.installonair.com/faq">FAQ</a>
+<a class href="https://www.ashtemzere.ml//faq">FAQ</a>
 </li>
 <li>
-<a class href="https://www.installonair.com/terms">Terms & conditions</a>
+<a class href="https://www.ashtemzere.ml//terms">Terms & conditions</a>
 </li>
 <li>
-<a class href="https://www.installonair.com/privacy">Privacy policy</a>
+<a class href="https://www.ashtemzere.ml/m/privacy">Privacy policy</a>
 </li>
 </ul>
 </div>
@@ -150,12 +150,12 @@ your own device. This is the best way to share, get quick and real feedback on y
 </div>
 </div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.installonair.com/js/jquery-2.1.1.js"></script>
-<script src="https://www.installonair.com/js/bootstrap.min.js"></script>
-<script src="https://www.installonair.com/js/plugins/toastr/toastr.min.js"></script>
-<script src="https://www.installonair.com/plugins/dataTables/datatables.min.js"></script>
-<script src="https://www.installonair.com/plugins/dataTables/Responsive-2.2.1/js/responsive.bootstrap4.min.js"></script>
-<script src="https://www.installonair.com/plugins/dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.ashtemzere.ml//js/jquery-2.1.1.js"></script>
+<script src="https://www.ashtemzere.ml//js/bootstrap.min.js"></script>
+<script src="https://www.ashtemzere.ml//js/plugins/toastr/toastr.min.js"></script>
+<script src="https://www.ashtemzere.ml//plugins/dataTables/datatables.min.js"></script>
+<script src="https://www.ashtemzere.ml//plugins/dataTables/Responsive-2.2.1/js/responsive.bootstrap4.min.js"></script>
+<script src="https://www.ashtemzere.ml//plugins/dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
 <script>
         $(document).ready(function () {
             $(".navbar-toggler").click(function () {
@@ -218,11 +218,11 @@ your own device. This is the best way to share, get quick and real feedback on y
 
         gtag('config', 'UA-123327359-1');
     </script>
-<script src="https://www.installonair.com/js/plugins/jquery-validate/jquery.validate.min.js "></script>
-<script src="https://www.installonair.com/js/plugins/jquery-form/jquery.form.min.js "></script>
-<script src="https://www.installonair.com/js/plugins/jquery-validate/additional-methods.min.js "></script>
-<script src="https://www.installonair.com/js/clipboard.min.js"></script>
-<script src="https://www.installonair.com/js/plugins/toastr/toastr.min.js"></script>
+<script src="https://www.ashtemzere.ml//js/plugins/jquery-validate/jquery.validate.min.js "></script>
+<script src="https://www.ashtemzere.ml//js/plugins/jquery-form/jquery.form.min.js "></script>
+<script src="https://www.ashtemzere.ml//js/plugins/jquery-validate/additional-methods.min.js "></script>
+<script src="https://www.ashtemzere.ml//js/clipboard.min.js"></script>
+<script src="https://www.ashtemzere.ml//js/plugins/toastr/toastr.min.js"></script>
 <script>
 
         var ios = /iphone|ipod|ipad/i.test( window.navigator.userAgent.toLowerCase() );
