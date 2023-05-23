@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Best Beta App, iOS App, Android App Distribution Services </title>
+<meta name="description" content="Install On Air is best application distribution service over the air. We offer Beta App, iOS App and
+Android App distribution. Don’t waste time and have an easy process for testing builds.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="csrf-token" content="1jz2idxUwwSyTs6JpPWjLQAldnwReVkaLoUs6aSJ">
+<link href="https://www.installonair.com/css/app.css" rel="stylesheet">
+<link href="https://www.installonair.com/fonts/font.css" rel="stylesheet">
+<link href="https://www.installonair.com/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://www.installonair.com/plugins/fontawesome-free-5.0.13/css/fontawesome-all.min.css">
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.installonair.com/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.installonair.com/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.installonair.com/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.installonair.com/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.installonair.com/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.installonair.com/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.installonair.com/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.installonair.com/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.installonair.com/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.installonair.com/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.installonair.com/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.installonair.com/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.installonair.com/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://www.installonair.com/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.installonair.com/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Install On Air | IPA Distribution" />
+<meta property="og:description" content="Install On Air offers Testflight and Diawi Alternative for iOS and Android App. Distribute your
+application in less time with best platform for app distribution." />
+<meta property="og:image" content="https://www.installonair.com/img/installonairfb.png" />
+</head>
+<body>
+<div class="page-content">
+<header>
+<div class="container">
+<nav class="navbar navbar-expand-lg i_menu">
+<a class="navbar-brand" href="https://www.installonair.com">
+<img src="https://www.installonair.com/img/logo.png" alt="logo">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+<div class="navbar-nav">
+<ul class="nav navbar-nav navbar-right">
+
+<a class="nav-item nav-link " href="https://www.installonair.com/features"> FEATURES </a>
+<a class="nav-item nav-link " href="https://www.installonair.com/faq">FAQ</a>
+<a class="nav-item nav-link " href="https://www.installonair.com/login">Login</a>
+<div class="ipa-register">
+<a class="nav-item nav-link register " href="https://www.installonair.com/register">Register for free</a>
+<ul>
+<li>Signup and get access to build for 8 days</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<div class="home_main ">
+<div class="container">
+<div class="js mb-5">
+<div class="box has-advanced-upload">
+<div id="progress-percentage">
+Install ESign
+</div>
+<a class="installationLink blue_btn btn installationButton box__button" href="itms-services://?action=download-manifest&amp;url=https://www.installonair.com/storage/ipaz/sFDVNS/sFDVNS.plist">Click Here to install </a><br/>
+<div class="m-2 text-danger" id="downloadLink"></div>
+<img src="https://www.installonair.com/storage/qr-code/sFDVNS.png">
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<h3>About Us</h3>
+<p class="para">Install On Air is a platform for distributing your iOS and Android applications as well as installing it
+over the air. You can share that link to your clients, testers, friends or developers or utilize it for
+your own device. This is the best way to share, get quick and real feedback on your mobile application.
+</p>
+</div>
+<div class="col-md-4 cls2">
+<h3>Links</h3>
+<ul class="links">
+<li>
+<a class href="https://www.installonair.com">Home</a>
+</li>
+<li>
+<a class href="https://www.installonair.com/features">FEATURES</a>
+</li>
+<li>
+<a class href="https://www.installonair.com/faq">FAQ</a>
+</li>
+<li>
+<a class href="https://www.installonair.com/terms">Terms & conditions</a>
+</li>
+<li>
+<a class href="https://www.installonair.com/privacy">Privacy policy</a>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<h3>Contact us</h3>
+<ul class="contact_links">
+<li>
+<a href="/cdn-cgi/l/email-protection#8aebeee7e3e4cae3e4f9feebe6e6e5e4ebe3f8a4e9e5e7">
+<i class="email"></i><span class="__cf_email__" data-cfemail="accdc8c1c5c2ecc5c2dfd8cdc0c0c3c2cdc5de82cfc3c1">[email&#160;protected]</span></a>
+</li>
+<li style="display:none;">
+<a href="tel:+91(281) 2362361">
+<i class="phone"></i>+91(281) 2362361</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer_bottom">
+<div class="container">
+<p class="text-center">© 2023 All rights reserved.</p>
+</div>
+</div>
+</footer>
+<div class="modal fade" id="qrcodemodal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">QR Code</h4>
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span>
+<span class="sr-only">Close</span>
+</button>
+</div>
+<div class="modal-body">
+<img src id="qrcode">
+<h3 class="error-msg text-center">Sorry, Your application does not have QR code</h3>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.installonair.com/js/jquery-2.1.1.js"></script>
+<script src="https://www.installonair.com/js/bootstrap.min.js"></script>
+<script src="https://www.installonair.com/js/plugins/toastr/toastr.min.js"></script>
+<script src="https://www.installonair.com/plugins/dataTables/datatables.min.js"></script>
+<script src="https://www.installonair.com/plugins/dataTables/Responsive-2.2.1/js/responsive.bootstrap4.min.js"></script>
+<script src="https://www.installonair.com/plugins/dataTables/Responsive-2.2.1/js/dataTables.responsive.min.js"></script>
+<script>
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                if ($('.navbar-collapse').hasClass('show')) {
+                    $('.navbar-collapse').removeClass('show');
+                } else {
+                    $('.navbar-collapse').addClass('show');
+                }
+            });
+
+        });
+
+		toastr.options = {
+			closeButton: true,
+			progressBar: true,
+			showMethod: 'slideDown',
+			timeOut: 5000
+		};
+
+				
+		window.Laravel = {"csrfToken":"1jz2idxUwwSyTs6JpPWjLQAldnwReVkaLoUs6aSJ"}
+		function fnToastSuccess(message) {
+			toastr.options = {
+				closeButton: true,
+				progressBar: true,
+				showMethod: 'slideDown',
+				timeOut: 4000
+			};
+			toastr.success(message);
+		}
+
+		function fnToastError(message) {
+			toastr.options = {
+				closeButton: true,
+				progressBar: true,
+				showMethod: 'slideDown',
+				timeOut: 4000
+			};
+			toastr.error(message);
+		}
+
+		function ajaxError(xhr, status, error) {
+			if(xhr.status ==401){
+				fnToastError("You are not logged in. please login and try again");
+			}else if(xhr.status == 403){
+				fnToastError("You have not permission for perform this operations");
+			}else if(xhr.responseJSON && xhr.responseJSON.message!=""){
+				fnToastError(xhr.responseJSON.message);
+			}else{
+				fnToastError("Something went wrong , Please try again later.");
+			}
+		}
+    </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123327359-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123327359-1');
+    </script>
+<script src="https://www.installonair.com/js/plugins/jquery-validate/jquery.validate.min.js "></script>
+<script src="https://www.installonair.com/js/plugins/jquery-form/jquery.form.min.js "></script>
+<script src="https://www.installonair.com/js/plugins/jquery-validate/additional-methods.min.js "></script>
+<script src="https://www.installonair.com/js/clipboard.min.js"></script>
+<script src="https://www.installonair.com/js/plugins/toastr/toastr.min.js"></script>
+<script>
+
+        var ios = /iphone|ipod|ipad/i.test( window.navigator.userAgent.toLowerCase() );
+        var android = /android|tablet/i.test(window.navigator.userAgent.toLowerCase());
+
+        $("#downloadLink").hide();
+
+        if('iphone' == 'iphone') {
+
+						//for ipad pro
+            // if(window.screen.height / window.screen.width == 1024 / 1336 ||window.screen.height / window.screen.width == 2048 / 2732  ||window.screen.height / window.screen.width == 2048 / 1536 ||window.screen.height / window.screen.width == 2224 / 1668){
+						// 	downloadCount(1884676);
+						// }else
+
+						//if(window.screen.height / window.screen.width == 834 / 1194 || window.screen.height / window.screen.width == 1024 / 1336 || window.screen.height / window.screen.width == 1024 / 1336 || window.screen.height / window.screen.width == 2048 / 2732  ||window.screen.height / window.screen.width == 2048 / 1536 ||window.screen.height / window.screen.width == 2224 / 1668){
+						//	downloadCount(1884676);
+						//}
+						if(window.screen.height / window.screen.width == 834 / 1194 || window.screen.height / window.screen.width == 768 / 1024 || window.screen.height / window.screen.width == 1024 / 1336 || window.screen.height / window.screen.width == 2732 / 2048 || window.screen.height / window.screen.width == 2388 / 1668 || window.screen.height / window.screen.width == 2160 / 1620  || window.screen.height / window.screen.width == 2048 / 1536 ||window.screen.height / window.screen.width == 2224 / 1668){
+							downloadCount(1884676);
+						}
+
+						else if(!ios) {
+                $("<div class='alert alert-danger'>You are <strong> NOT </strong> using an <strong> iOS </strong> device. Links & icons <strong> WILL NOT </strong> work.</div>").insertBefore( ".box" );
+                $('.box__button').prop('disabled', true);
+                $('.installationLink').attr("href", "javascript:void(0)").addClass("disabled");
+            }
+            else {
+                var isSafari = false;
+                isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(navigator.userAgent);
+
+                if( !isSafari ) {
+                    $("<div class='alert alert-danger'>You are <strong> NOT </strong> using a <strong> Safari Browser.</strong> Links & icons <strong> WILL NOT </strong> work. Please <strong> open </strong> in Safari Browser. </div>").insertBefore( ".box" );
+                    $('.box__button').prop('disabled', true);
+                    $('.installationLink').attr("href", "javascript:void(0)").addClass("disabled");
+                }
+                else {
+                    downloadCount(1884676);
+                }
+            }
+        } else if('iphone' == 'android') {
+            $(".installationLink").attr('mimetype', 'application/vnd.android.package-archive')
+            if (!android)
+            {
+                $("<div class='alert alert-danger'>You are <strong> NOT </strong> using an <strong> Android </strong> device. Links & icons <strong> WILL NOT </strong> work.</div>").insertBefore( ".box" );
+                $('.box__button').prop('disabled', true);
+                $('.installationLink').attr("href", "javascript:void(0)").addClass("disabled");
+            }
+            else {
+                downloadCount(1884676);
+
+            }
+
+        }
+        $(".installationButton").click(function() {
+            $('.installationButton').text('Installing');
+            if( "" != "" ) {
+                setTimeout(function(){
+                    $("#downloadLink").html("Your download will begin in a moment. If it doesn't, Click below link<br /><a href='' target='_blank'><b>Click here</b></a>").show();
+                },5000);
+            }
+
+        });
+
+        function downloadCount(app_id) {
+
+            $.ajax({
+                type: "PUT",
+                url: "https://www.installonair.com/app-download-count",
+                data: { app_id : app_id },
+                headers: {
+                    "X-CSRF-TOKEN": "1jz2idxUwwSyTs6JpPWjLQAldnwReVkaLoUs6aSJ"
+                },
+                success: function (data) {
+                    console.log(data);
+                }
+            });
+        }
+
+    </script>
+<script type="text/javascript">
+var infolinks_pid = 3226567;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b97c25bc9abba5796776ef0/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+</body>
+</html>
